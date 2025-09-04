@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Navrang 5.0 Sponsorship Proposal</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+         body {
+             font-family: 'Inter', sans-serif;
+             color: #4A4A4A;
+             background-color: #f7f7f7;
+             background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e0e0e0' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zm1 6v-1L1 0h1z'/%3E%3C/g%3E%3C/svg%3E");
+         }
+         .container {
+             max-width: 900px;
+         }
+         h1, h2, h3, h4 {
+             font-family: 'Playfair Display', serif;
+         }
+         .header-bg {
+             background-image: linear-gradient(135deg, #FF6F61 0%, #880E4F 100%);
+         }
+         .card {
+             background-color: #ffffff;
+             border-radius: 0.75rem;
+             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+             transition: transform 0.3s ease, box-shadow 0.3s ease;
+         }
+         .card:hover {
+             transform: translateY(-5px);
+             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+         }
+
+         /* Updated card styles with new color scheme */
+         .card-gold {
+             background-color: #FFFBE5;
+             border: 2px solid #F4B400;
+         }
+         .card-silver {
+             background-color: #E8F0FE;
+             border: 2px solid #4285F4;
+         }
+         .card-bronze {
+             background-color: #FDE8E6;
+             border: 2px solid #DB4437;
+         }
+         .card-kiosk-green {
+             background-color: #E6F5EC;
+             border: 2px solid #0F9D58;
+         }
+         .card-kiosk-blue {
+             background-color: #E8F0FE;
+             border: 2px solid #4285F4;
+         }
+         .card-kiosk-yellow {
+             background-color: #FFFBE5;
+             border: 2px solid #F4B400;
+         }
+         .card-kiosk-red {
+             background-color: #FDE8E6;
+             border: 2px solid #DB4437;
+         }
+
+         .list-style-custom {
+             list-style-type: none;
+             padding-left: 0;
+         }
+         .list-style-custom li {
+             position: relative;
+             padding-left: 1.5rem;
+             margin-bottom: 0.5rem;
+         }
+         .list-style-custom li::before {
+             content: '✓';
+             position: absolute;
+             left: 0;
+             color: #4285F4;
+             font-weight: bold;
+         }
+
+         /* --- Print-specific styles for better PDF output --- */
+         @media print {
+             body {
+                 background-color: #fff !important;
+                 background-image: none !important;
+                 color: #000 !important;
+                 font-size: 14pt !important;
+             }
+             .container {
+                 box-shadow: none !important;
+                 padding: 0 !important;
+                 margin: 0 auto !important;
+                 width: 100% !important;
+             }
+             .header-bg {
+                 background-image: none !important;
+                 background-color: #f0f0f0 !important;
+                 color: #000 !important;
+             }
+             .header-bg h1, .header-bg h2, .header-bg p {
+                 color: #000 !important;
+             }
+             .card, .card:hover {
+                 box-shadow: none !important;
+                 transform: none !important;
+             }
+             img {
+                 page-break-inside: avoid;
+             }
+             h3 {
+                 page-break-before: always;
+             }
+         }
+     </style>
+ </head>
+ <body class="p-8">
+     <div class="container mx-auto bg-white rounded-xl shadow-2xl p-8 md:p-12">
+         <header class="text-center mb-10 py-10 rounded-t-xl header-bg text-white shadow-lg">
+             <h1 class="text-5xl md:text-6xl font-bold mb-2">Navrang 5.0</h1>
+             <h2 class="text-3xl font-semibold">Sponsorship Proposal</h2>
+             <p class="mt-4 text-white text-opacity-80">MGCA- RWA Greenburg</p>
+             <p class="mt-1 text-white text-opacity-80">Cultural Sub-Committee, Sector 86- Gurugram</p>
+         </header>
+
+         <section class="mb-12">
+             <h3 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-gray-200 pb-2">Event Overview: Navrang 5.0</h3>
+             <p class="text-gray-600 leading-relaxed mb-4">
+                 The Microtek Greenburg Cultural Committee proudly invites you to partner with us for <strong>Navrang 5.0</strong>, our annual Navratri festival. This two-day cultural extravaganza, held on September 27th and 28th, 2025, is more than just an event; it's a celebration that unites our community of over <strong>2000 residents</strong> through music, dance, and cultural performances.
+             </p>
+             <p class="text-gray-600 leading-relaxed">
+                 Navrang 5.0 provides a vibrant platform for businesses to connect with a premium, affluent, and engaged audience. Our residents are active consumers who trust local recommendations and appreciate businesses that support their community. By sponsoring Navrang 5.0, you will directly engage with your target market, build brand loyalty, and become a part of the rich cultural tapestry of Microtek Greenburg.
+             </p>
+         </section>
+
+         <section class="mb-12">
+             <h3 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-gray-200 pb-2">Event Highlights & Audience Demographics</h3>
+             <p class="text-gray-600 leading-relaxed mb-4">
+                 Microtek Greenburg is a top-tier residential society in New Gurgaon with over <strong>2000 residents</strong> from diverse age groups. Our events consistently attract a footfall of approximately <strong>1500 people</strong> over two days, making them an ideal environment for your brand to be seen and remembered. Our audience is primarily composed of families with children, young professionals, and senior citizens, all of whom have high spending capacity and are active and engaged consumers.
+             </p>
+
+             <!-- Image Gallery -->
+             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                 <img src="https://raw.githubusercontent.com/arunurun/navrang5/main/images/1.jpg" alt="A wide shot of the Navrang event stage and audience at night." class="w-full h-auto rounded-lg shadow-md">
+                 <img src="https://raw.githubusercontent.com/arunurun/navrang5/main/images/2.jpg" alt="A close-up of performers on the main stage with a large LED screen." class="w-full h-auto rounded-lg shadow-md">
+                 <img src="https://raw.githubusercontent.com/arunurun/navrang5/main/images/3.jpg" alt="An aerial view of the event area showing the stage, seating, and residential buildings." class="w-full h-auto rounded-lg shadow-md">
+             </div>
+
+             <p class="text-gray-600 leading-relaxed">
+                 Sponsoring our event is an investment in direct brand exposure and community goodwill. Unlike mass-market advertising, this opportunity allows you to create a personal connection with potential customers right in their own neighborhood. The society's strong word-of-mouth and recommendation system is a powerful driver of business for our sponsors.
+             </p>
+         </section>
+
+         <section class="mb-10">
+             <h3 class="text-2xl font-bold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2">Navrang 5.0 Sponsorship Packages</h3>
+             <p class="text-gray-600 leading-relaxed mb-8">
+                 We invite you to be a part of Navrang 5.0 and associate with us to promote your brand, product, or services to a premium audience of approximately <strong>2500 people</strong>. Many brands have seen immense gains from the society’s recommendation system, word of mouth, and organic marketing.
+             </p>
+
+             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                 <!-- Gold Sponsor -->
+                 <div class="card p-6 card-gold">
+                     <h4 class="text-xl font-bold text-yellow-800 mb-2">Gold / Title Sponsor</h4>
+                     <span class="text-sm font-semibold text-gray-700">(1 Opportunity)</span>
+                     <ul class="mt-4 text-gray-800 space-y-2 list-style-custom">
+                         <li>Prominent Logo Placement on banners & standees.</li>
+                          <li>Placement of Up to 4 flex banners provided by the sponsor (10' &times; 5' ft).</li>
+                         <li>Brand visuals on main LED screens.</li>
+                         <li>Event naming rights: "Navrang presented by [Your Brand Name]".</li>
+                         <li>Two dedicated promotional kiosks.</li>
+                         <li>Opportunity to distribute brand materials.</li>
+                         <li>Cost: 1 Lakh</li>
+                     </ul>
+                 </div>
+
+                 <!-- Silver Sponsor -->
+                 <div class="card p-6 card-silver">
+                     <h4 class="text-xl font-bold text-blue-800 mb-2">Silver / Co-Sponsor</h4>
+                     <span class="text-sm font-semibold text-gray-700">(1 Opportunity)</span>
+                     <ul class="mt-4 text-gray-800 space-y-2 list-style-custom">
+                         <li>Prominent Logo Placement on banners & standees.</li>
+                         <li>Placement of Up to 2 flex banners provided by the sponsor (10' &times; 5' ft).</li>
+                         <li>Brand visuals on main LED screens.</li>
+                         <li>Event naming rights: "Navrang co-presented by [Your Brand Name]".</li>
+                         <li>One dedicated promotional kiosk.</li>
+                         <li>Opportunity to distribute brand materials.</li>
+                         <li>Cost: 75K</li>
+                     </ul>
+                 </div>
+
+                 <!-- Bronze Sponsor -->
+                 <div class="card p-6 card-bronze">
+                     <h4 class="text-xl font-bold text-red-800 mb-2">Bronze / Powered by Sponsor</h4>
+                     <span class="text-sm font-semibold text-gray-700">(2 Opportunities)</span>
+                     <ul class="mt-4 text-gray-800 space-y-2 list-style-custom">
+                         <li>Logo placement on banners & standees.</li>
+                         <li>Placement of Up to 2 flex banners provided by the sponsor (6' &times; 4' ft).</li>
+                         <li>Brand visuals on main LED screens.</li>
+                         <li>Event naming rights: "Navrang - powered by [Your Brand Name]".</li>
+                         <li>One dedicated promotional kiosk.</li>
+                         <li>Opportunity to distribute brand materials.</li>
+                         <li>Cost: 50K</li>
+                     </ul>
+                 </div>
+
+                 <!-- Lifestyle Kiosk -->
+                 <div class="card p-6 card-kiosk-blue">
+                     <h4 class="text-xl font-bold text-green-800 mb-2">Lifestyle / Non-Food Kiosk</h4>
+                     <span class="text-sm font-semibold text-gray-500">(18 Opportunities)</span>
+                     <ul class="mt-4 text-gray-700 space-y-2 list-style-custom">
+                         <li>Dedicated kiosk for promotional activities.</li>
+                         <li>Option to decorate the kiosk.</li>
+                         <li>Option to place a standee next to the kiosk.</li>
+                         <li>Opportunity to distribute brand materials.</li>
+                         <li>Offer announcements.</li>
+                         <li>General brand introduction by event host.</li>
+                         <li>Cost: 12.5K</li>
+                     </ul>
+                 </div>
+
+                 <!-- Food Kiosk -->
+                 <div class="card p-6 card-kiosk-yellow">
+                     <h4 class="text-xl font-bold text-green-800 mb-2">Food Kiosk</h4>
+                     <span class="text-sm font-semibold text-gray-500">(12 Opportunities)</span>
+                     <ul class="mt-4 text-gray-700 space-y-2 list-style-custom">
+                         <li>Dedicated kiosk in the food court.</li>
+                         <li>Option to decorate the kiosk.</li>
+                         <li>Option to place a standee next to the kiosk.</li>
+                         <li>Opportunity to distribute brand materials.</li>
+                         <li>Offer announcements.</li>
+                         <li>General brand introduction by event host.</li>
+                         <li>Cost: 15K</li>
+                     </ul>
+                 </div>
+
+                 <!-- Automobile Kiosk 20k per day per car, others subject to discussion-->
+                <div class="card p-7 card-kiosk-green">
+                    <h4 class="text-xl font-bold text-green-800 mb-2">Automotive Partners</h4>
+                    <span class="text-sm font-semibold text-gray-500">(1 opportunity)</span>
+                    <ul class="mt-4 text-gray-700 space-y-2 list-style-custom">
+                        <li>Dedicated space for auto mobile display</li>
+                        <li>Option to decorate the area.</li>
+			            <li>visuals on main LED screens.</li>
+                        <li>Option to place promotional material around the display area.</li>
+                        <li>Opportunity to distribute brand materials.</li>
+                        <li>Offer announcements.</li>
+                        <li>General brand/model introduction by event host.</li>
+                        <li>Cost: 20k per day per car, others subject to discussion</li>
+                    </ul>
+                </div>
+
+             </div>
+         </section>
+     </div>
+ </body>
+ </html>
